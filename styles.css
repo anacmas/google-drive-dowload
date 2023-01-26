@@ -21,10 +21,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
-  max-width: 900px;
+.general-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-instructions {
+  width: 20%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.container-link-creator {
+  width: 80%;
 }
 
 .about-group {
