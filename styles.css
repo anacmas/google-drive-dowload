@@ -67,16 +67,17 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  color: rgb(163, 163, 163);
 }
 
 .about a {
-  color: var(--light-green);
+  color: #b8b8b8;
   text-decoration: underline;
   cursor: pointer;
 }
 
 .about a:hover {
-  color: var(--green);
+  color: #8482a7;
   transition: 0.3s;
 }
 
@@ -84,6 +85,7 @@ body {
   width: 20px;
   opacity: 60%;
   margin-left: 10px;
+  filter: invert(100%);
 }
 
 .about-group img:hover {
