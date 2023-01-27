@@ -19,6 +19,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #1c2b2d;
 }
 
 .general-container {
@@ -57,6 +58,7 @@ body {
 
 .container-link-creator {
   width: 80%;
+  background-color: rgb(250, 253, 255);
 }
 
 .about-group {
